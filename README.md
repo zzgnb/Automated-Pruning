@@ -12,8 +12,6 @@ the main sparsity losses are in `Loss.py`. Actually, purning is an empirical pro
 
 Install the DeepFilterNet Python wheel via pip:
 ```bash
-# Install cpu/cuda pytorch (>=1.9) dependency from pytorch.org, e.g.:
-pip install torch torchaudio -f https://download.pytorch.org/whl/cpu/torch_stable.html
 # Install DeepFilterNet
 pip install deepfilternet
 # Or install DeepFilterNet including data loading functionality for training (Linux only)
@@ -30,19 +28,17 @@ as well as a dataset configuration json file.
 So, you first need to create your datasets in HDF5 format. Each dataset typically only
 holds training, validation, or test set of noise, speech or RIRs.
 ```py
-# 1.Install additional dependencies for dataset creation
+# 1.Install dependencies 
 pip install h5py librosa soundfile
 # 2.Prepare text file (e.g. called training_set.txt) containing paths to .wav files
-#
-# usage: prepare_data.py [-h] [--num_workers NUM_WORKERS] [--max_freq MAX_FREQ] [--sr SR] [--dtype DTYPE]
-#                        [--codec CODEC] [--mono] [--compression COMPRESSION]
-#                        type audio_files hdf5_db
-#
+python scripts/get_txt.py
+# 3.Generate HDF5 files
+python scripts/prepare_data.py [--num_workers NUM_WORKERS] [--sr SR] [--dtype DTYPE] [path.txt] [data.hdf5]
 # where:
 #   type: One of `speech`, `noise`, `rir`
 #   audio_files: Text file containing paths to audio files to include in the dataset
 #   hdf5_db: Output HDF5 dataset.
-python df/scripts/prepare_data.py --sr 48000 speech training_set.txt TRAIN_SET_SPEECH.hdf5
+# for example: python scripts/prepare_data.py --sr 48000 speech training_set.txt TRAIN_SET_SPEECH.hdf5
 ```
 All datasets should be made available in one dataset folder for the train script.
 
