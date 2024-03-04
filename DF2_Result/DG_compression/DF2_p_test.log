@@ -1,0 +1,23 @@
+2024-02-29 00:31:43 | INFO     | DF | Running on torch 1.12.1
+2024-02-29 00:31:43 | INFO     | DF | Running on host dell-Precision-5820-Tower
+2024-02-29 00:31:43 | INFO     | DF | Git commit: e53dd05, branch: main
+2024-02-29 00:31:43 | INFO     | DF | Loading model settings of ft_ep_4.pth
+2024-02-29 00:33:06 | INFO     | DF | Progress: 25%
+2024-02-29 00:34:26 | INFO     | DF | Progress: 50%
+2024-02-29 00:35:50 | INFO     | DF | Progress: 75%
+2024-02-29 00:37:13 | INFO     | DF | Progress: 100%
+2024-02-29 00:37:13 | INFO     | DF | Waiting for metrics computation completion. This could take a few minutes.
+2024-02-29 00:37:14 | INFO     | DF | Noisy    STOI: 0.920
+2024-02-29 00:37:14 | INFO     | DF | Enhanced STOI: 0.922
+2024-02-29 00:37:14 | INFO     | DF | Noisy    PESQ: 1.968
+2024-02-29 00:37:14 | INFO     | DF | Enhanced PESQ: 2.518
+2024-02-29 00:37:14 | INFO     | DF | Noisy    CSIG: 3.342
+2024-02-29 00:37:14 | INFO     | DF | Enhanced CSIG: 3.395
+2024-02-29 00:37:14 | INFO     | DF | Noisy    CBAK: 2.443
+2024-02-29 00:37:14 | INFO     | DF | Enhanced CBAK: 3.039
+2024-02-29 00:37:14 | INFO     | DF | Noisy    COVL: 2.629
+2024-02-29 00:37:14 | INFO     | DF | Enhanced COVL: 2.934
+2024-02-29 00:37:14 | INFO     | DF | Noisy    SSNR: 1.695
+2024-02-29 00:37:14 | INFO     | DF | Enhanced SSNR: 6.923
+2024-02-29 00:37:14 | INFO     | DF | Noisy    SISDR: 8.423
+2024-02-29 00:37:14 | INFO     | DF | Enhanced SISDR: 14.648

@@ -1,0 +1,27 @@
+2024-02-28 14:36:09 | INFO     | DF | Running on torch 1.12.1
+2024-02-28 14:36:09 | INFO     | DF | Running on host dell-Precision-5820-Tower
+2024-02-28 14:36:10 | INFO     | DF | Git commit: e53dd05, branch: main
+2024-02-28 14:36:10 | INFO     | DF | Loading model settings of DFNet2_jit_S_Conv
+2024-02-28 14:36:10 | INFO     | DF | Initializing model `deepfilternet2_jit_conv`
+2024-02-28 14:36:15 | INFO     | DF | Found checkpoint /E/zhaozugang/SpeechEhancement/DeepFilterNet/self_test/train_result/48KHz/tmp/DFNet2_jit_S_Conv/checkpoints/model_29.ckpt.best with epoch 29
+2024-02-28 14:36:15 | INFO     | DF | Running on device cuda:0
+2024-02-28 14:36:15 | INFO     | DF | Model loaded
+2024-02-28 14:37:49 | INFO     | DF | Progress: 25%
+2024-02-28 14:39:23 | INFO     | DF | Progress: 50%
+2024-02-28 14:41:02 | INFO     | DF | Progress: 75%
+2024-02-28 14:42:30 | INFO     | DF | Progress: 100%
+2024-02-28 14:42:30 | INFO     | DF | Waiting for metrics computation completion. This could take a few minutes.
+2024-02-28 14:42:32 | INFO     | DF | Noisy    STOI: 0.920
+2024-02-28 14:42:32 | INFO     | DF | Enhanced STOI: 0.922
+2024-02-28 14:42:32 | INFO     | DF | Noisy    PESQ: 1.968
+2024-02-28 14:42:32 | INFO     | DF | Enhanced PESQ: 2.505
+2024-02-28 14:42:32 | INFO     | DF | Noisy    CSIG: 3.342
+2024-02-28 14:42:32 | INFO     | DF | Enhanced CSIG: 3.397
+2024-02-28 14:42:32 | INFO     | DF | Noisy    CBAK: 2.443
+2024-02-28 14:42:32 | INFO     | DF | Enhanced CBAK: 3.004
+2024-02-28 14:42:32 | INFO     | DF | Noisy    COVL: 2.629
+2024-02-28 14:42:32 | INFO     | DF | Enhanced COVL: 2.932
+2024-02-28 14:42:32 | INFO     | DF | Noisy    SSNR: 1.695
+2024-02-28 14:42:32 | INFO     | DF | Enhanced SSNR: 6.407
+2024-02-28 14:42:32 | INFO     | DF | Noisy    SISDR: 8.423
+2024-02-28 14:42:32 | INFO     | DF | Enhanced SISDR: 14.020
