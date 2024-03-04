@@ -22,7 +22,7 @@ pip install deepfilternet[train]
 
 The detail can be found in https://github.com/Rikorose/DeepFilterNet.
 
-### DF2 Data Preparation
+### Data Preparation for DF2 Pruning
 
 The entry point is `train.py`. It expects a data directory containing HDF5 dataset
 as well as a dataset configuration json file.
@@ -122,7 +122,7 @@ Install the Torch-Pruning Python wheel via pip:
 ```bash
 pip install torch-pruning 
 ```
-The detail can be found in https://github.com/VainF/Torch-Pruning.
+The detail can be found in https://github.com/VainF/Torch-Pruning. By the way, Torch-Pruning is not that compatible and intelligent and there is need to implement Pruner for specific network layers such as grouped linear layers for DF2, named `GLinearPruner` in `prune_utils.py`.  
 
 ### Pruning for DF2
 The enter point is `pruning.py` and `prune_utils.py` is the corresponding dependency package.You may change the arguments with detailed explanation in `pruning.py`.
@@ -133,7 +133,7 @@ python pruning.py
 
 ### Pruning for others
 
-Substitute the validation and Dataloader module to your own implementation. 
+Substitute the validation and Dataloader module to your own implementation in `pruning.py`.
 
 ## Evaluation
 
