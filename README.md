@@ -6,7 +6,7 @@ This source code is mainly compatible for DF2 model. `model.py` can convert the 
 ## Training with Sparsity
 
 ### Sparsity Loss
-the main sparsity losses are in `Loss.py`.
+the main sparsity losses are in `Loss.py`. Actually, purning is an empirical process so the various factor settings of sparsity loss should be tried for your own model pruning. Limited by the sub-optimal analysis of weight significance(L1Norm we use), pruning remains indeterminacy and we suggest to pruning more than once or test more effective analysis methods.
 
 ### DF2 Model
 
