@@ -117,7 +117,7 @@ python train.py
 Install the Torch-Pruning Python wheel via pip:
 ```bash
 conda create -n [your_env_name] python=3.8
-conda install torch-pruning=1.3.1
+pip install torch-pruning==1.3.1
 ```
 We modify these source files in directory `source` and you could substitute these in vitual environment for better compatability. The corresponding paths are:
 ```bash
