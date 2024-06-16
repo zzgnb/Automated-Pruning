@@ -116,8 +116,10 @@ python train.py
 ### Environment Support 
 Install the Torch-Pruning Python wheel via pip:
 ```bash
-pip install torch-pruning 
+conda create -n [your_env_name] python=3.8
+conda install torch-pruning=1.3.1
 ```
+We modify these source files in directory `source` and you could substitute these in vitual environment for better compatability.
 The detail can be found in https://github.com/VainF/Torch-Pruning. By the way, Torch-Pruning is not that compatible and intelligent and there is need to implement Pruner for specific network layers such as grouped linear layers for DF2, named `GLinearPruner` in `prune_utils.py`.  
 
 ### Pruning for DF2
