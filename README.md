@@ -3,7 +3,7 @@
 ## Result Preview
 ### DeepFilterNet2 48k/16k 
 [DeepFilterNet2: Towards Real-Time Speech Enhancement on Embedded Devices for Full-Band Audio](https://github.com/Rikorose/DeepFilterNet)
-<img width="827" alt="image" src="https://github.com/user-attachments/assets/60dc4c2c-a688-4cb7-9f90-a1a06c85c171">
+<img width="827" alt="image" src="https://github.com/user-attachments/assets/60dc4c2c-a688-4cb7-9f90-a1a06c85c171"><br>
 -p means pruned model, -small means the version with fewer params.
 ### DeepVQE
 [DeepVQE: Real Time Deep Voice Quality Enhancement for Joint Acoustic Echo Cancellation, Noise Suppression and Dereverberation](https://arxiv.org/pdf/2306.03177).
